@@ -1,0 +1,16 @@
+@import 'mixin';
+.rate-box {
+  width: 27em;
+  padding: 2rem;
+  border-radius: 30px;
+  margin: 0 auto;
+
+  @include for-phone-up {
+    width: 19em;
+  }
+
+  @include  for-phone-mid-down  {
+    width: 23rem;
+  }
+}
+

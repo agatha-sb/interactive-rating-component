@@ -1,0 +1,46 @@
+// * ---------------- *//
+// * Utility Classes *//
+// * ---------------- *//
+
+// * bg-colors
+.bg-primary  {background-color: $primary-color;}
+.bg-dark-blue {background-color: $neutral-dark-blue;}
+.bg-medium-grey {background-color: $neutral-medium-grey;}
+
+// * text-colors
+.text-primary {color: $primary-color;}
+.text-white {color: $neutral-white;}
+.text-light-grey {color: $neutral-light-grey;}
+.text-medium-grey {color: $neutral-medium-grey;}
+.text-dark-blue {color: $neutral-dark-blue;}
+.text-black {color: $neutral-black;}
+
+// * typography
+.ff-overpass{font-family: $font-overpass;}
+
+// * font-sizes
+.fs-400{font-size: $fs-400;}
+.fs-500{font-size: $fs-500;}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.text-center  {
+  text-align: center !important;
+}
+
+.container  {
+  max-width: 80em;/* 32px */
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.custom-heading {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  margin-top: 0;
+}

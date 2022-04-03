@@ -1,0 +1,6 @@
+@mixin for-phone-up {
+  @media (max-width: 24.375rem) { @content; }
+}
+@mixin for-phone-mid-down {
+  @media (min-width: 24.376rem) and (max-width: 30rem) { @content; }
+}

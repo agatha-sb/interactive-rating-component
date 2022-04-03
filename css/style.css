@@ -1,0 +1,267 @@
+.bg-primary {
+  background-color: #fb7413;
+}
+
+.bg-dark-blue {
+  background-color: #252d37;
+}
+
+.bg-medium-grey {
+  background-color: #7c8798;
+}
+
+.text-primary {
+  color: #fb7413;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-light-grey {
+  color: #959eac;
+}
+
+.text-medium-grey {
+  color: #7c8798;
+}
+
+.text-dark-blue {
+  color: #252d37;
+}
+
+.text-black {
+  color: black;
+}
+
+.ff-overpass {
+  font-family: "Overpass", sans-serif;
+}
+
+.fs-400 {
+  font-size: 15px;
+}
+
+.fs-500 {
+  font-size: 30px;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.container {
+  max-width: 80em;
+  /* 32px */
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.custom-heading {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  margin-top: 0;
+}
+
+.rate-box {
+  width: 27em;
+  padding: 2rem;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+@media (max-width: 24.375rem) {
+  .rate-box {
+    width: 19em;
+  }
+}
+@media (min-width: 24.376rem) and (max-width: 30rem) {
+  .rate-box {
+    width: 23rem;
+  }
+}
+
+.rate-numbers {
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+@media (max-width: 24.375rem) {
+  .rate-numbers {
+    margin-bottom: 1.5rem;
+  }
+}
+.rate-numbers div {
+  width: 52px;
+  aspect-ratio: 1;
+  background-color: rgba(124, 135, 152, 0.3);
+  color: #959eac;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+@media (max-width: 24.375rem) {
+  .rate-numbers div {
+    width: 40px;
+  }
+}
+@media (min-width: 24.376rem) and (max-width: 30rem) {
+  .rate-numbers div {
+    width: 48px;
+  }
+}
+.rate-numbers div:hover {
+  background-color: #7c8798;
+  color: white;
+}
+.rate-numbers div label {
+  font-size: 15px;
+  line-height: 52px;
+  font-weight: 700;
+}
+@media (max-width: 24.375rem) {
+  .rate-numbers div label {
+    line-height: 40px;
+  }
+}
+@media (min-width: 24.376rem) and (max-width: 30rem) {
+  .rate-numbers div label {
+    line-height: 48px;
+  }
+}
+.rate-numbers [type=radio] {
+  display: none;
+}
+
+.rate-star {
+  margin-bottom: 2rem;
+}
+@media (max-width: 24.375rem) {
+  .rate-star {
+    margin-bottom: 1.5rem;
+  }
+}
+.rate-star span {
+  display: inline-block;
+  width: 52px;
+  aspect-ratio: 1;
+  background-color: rgba(124, 135, 152, 0.3);
+  color: #959eac;
+  text-align: center;
+  border-radius: 50%;
+  align-self: center;
+}
+.rate-star span img {
+  max-width: 100%;
+  padding-top: 16px;
+}
+
+.selected-rate {
+  margin-bottom: 2rem;
+  display: inline-block;
+  background-color: rgba(124, 135, 152, 0.2);
+  padding: 6px 18px;
+  border-radius: 50px;
+  margin-top: 1.5rem;
+}
+.selected-rate p {
+  color: #fb7413;
+  margin: 0;
+  font-weight: 400;
+}
+
+.checked {
+  background-color: #fb7413 !important;
+  color: white !important;
+}
+
+.unchecked {
+  color: inherit;
+}
+
+.rate-button {
+  text-align: center;
+}
+.rate-button .custom-btn {
+  display: inline-block;
+  width: 100%;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  padding-block: 0.72rem;
+  transition: all 0.5s ease-in-out;
+}
+.rate-button .custom-btn:hover, .rate-button .custom-btn:focus {
+  background-color: white;
+  color: #fb7413;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  color: #7c8798;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  margin-top: 0;
+}
+@media (max-width: 24.375rem) {
+  p {
+    font-size: 15px;
+    margin-bottom: 1rem;
+  }
+}
+
+button {
+  border: 0;
+}
+
+#rating-state {
+  display: block;
+}
+
+#thank-you-state {
+  display: none;
+}
+
+.rating-state,
+.thank-you-state {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0.5rem;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */

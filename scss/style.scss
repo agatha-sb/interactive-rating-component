@@ -1,0 +1,76 @@
+@import 'variables';
+@import 'utilities';
+@import 'rate-box';
+@import 'rates';
+@import 'button';
+@import 'mixin';
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+
+body  {
+  background-color: $neutral-black;
+  color: $neutral-white;
+}
+
+p {
+  font-size: 16px;
+  color: #7c8798;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  margin-top: 0;
+
+  @include for-phone-up {
+    font-size: $fs-400;
+    margin-bottom: 1rem;
+  }
+}
+
+button  {
+  border: 0;
+}
+
+
+
+// * ---------------- *//
+// * MAIN *//
+// * ---------------- *//
+
+
+
+#rating-state {
+  display: block;
+}
+
+#thank-you-state {
+  display: none; 
+}
+
+.rating-state,
+.thank-you-state  {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: $font-overpass;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0.5rem;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
